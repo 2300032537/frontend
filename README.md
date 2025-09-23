@@ -13,3 +13,4 @@ Currently, two official plugins are available:
 "# frontend" 
 "# frontend" 
 "# frontend" 
+"# frontend-health" 

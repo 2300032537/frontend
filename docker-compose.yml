@@ -1,0 +1,10 @@
+# filepath: c:\Users\jagan\OneDrive\Desktop\gouthamproject\frontend\frontend\docker-compose.yml
+version: '3.8'
+services:
+  frontend:
+    build: .
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+    command: npm run dev
